@@ -161,11 +161,11 @@ The "Travel Api" provides the following APIs:
   - Method: `GET`
   - Description: Retrieve orders filtered by a specific date.
 
-  - **Get All Orders by Product**
+- **Get All Orders by Product**
 
   - Endpoint: `/search/:productName`
   - Method: `GET`
-  - Description: Retrieve orders filtered by a specific date.
+  - Description: Retrieve orders filtered by a specific product.
 
 - **Get Orders by ID**
 
