@@ -8,6 +8,7 @@ The "Travel Api" is a web application that provides the API for working with tra
 
 - Node.js
 - Express
+- MongoDB
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -17,7 +18,7 @@ This project uses Node.js and Express. Ensure you have them installed before pro
 
 ## Prerequisites
 
-- Node.js and npm installed on your machine.
+- Node.js, MongoDB and npm installed on your machine.
 
 ## Installation
 
