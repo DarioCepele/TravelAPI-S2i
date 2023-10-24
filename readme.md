@@ -1,6 +1,6 @@
-## About The Project
+## Travel Api
 
-The "Meditation Api" is a web application that provides the API for working with eco-friendly travels!
+The "Travel Api" is a web application that provides the API for working with travels!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -11,7 +11,7 @@ The "Meditation Api" is a web application that provides the API for working with
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Getting Started with Meditation Api
+# Getting Started with Travel Api
 
 This project uses Node.js and Express. Ensure you have them installed before proceeding.
 
@@ -34,7 +34,13 @@ This project uses Node.js and Express. Ensure you have them installed before pro
    npm install
    ```
 
-3. Start application
+3. Create .env file
+
+   ```
+   DATABASE_URL=mongodb://0.0.0.0:27017/"Your DB Name"
+   ```
+
+4. Start application
    ```
    node server.js
    ```
@@ -43,7 +49,7 @@ This project uses Node.js and Express. Ensure you have them installed before pro
 
 ## Usage
 
-To use the "Meditation Api," follow these simple steps:
+To use the "Travel Api," follow these simple steps:
 
 1.Make API requests to create, retrieve, update, or delete person and product.
 
@@ -55,7 +61,7 @@ To use the "Meditation Api," follow these simple steps:
 
 ## API Documentation
 
-The "Meditation Api" provides the following APIs:
+The "Travel Api" provides the following APIs:
 
 ### Users API
 
