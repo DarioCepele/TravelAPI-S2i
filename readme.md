@@ -68,7 +68,7 @@ The "Travel Api" provides the following APIs:
 
 - **Create a New User**
 
-  - Endpoint: `/api/users/`
+  - Endpoint: `/users/`
   - Method: `POST`
   - Description: Create a new user.
     - Request Body:
@@ -78,19 +78,19 @@ The "Travel Api" provides the following APIs:
 
 - **Get All Users**
 
-  - Endpoint: `/api/users/`
+  - Endpoint: `/users/`
   - Method: `GET`
   - Description: Retrieve a list of all registered users.
 
 - **Get User by ID**
 
-  - Endpoint: `/api/users/:userID`
+  - Endpoint: `/users/:userID`
   - Method: `GET`
   - Description: Retrieve user information based on their ID.
 
 - **Update User by ID**
 
-  - Endpoint: `/api/users/:userID`
+  - Endpoint: `/users/:userID`
   - Method: `PUT`
   - Description: Update user information based on their ID.
     - Request Body:
@@ -99,7 +99,7 @@ The "Travel Api" provides the following APIs:
     - **Email**: User's email address.
 
 - **Delete User by ID**
-  - Endpoint: `/api/users/:userID`
+  - Endpoint: `/users/:userID`
   - Method: `DELETE`
   - Description: Delete a user based on their email.
 
@@ -107,7 +107,7 @@ The "Travel Api" provides the following APIs:
 
 - **Create a New Product**
 
-  - Endpoint: `/api/products/`
+  - Endpoint: `/products/`
   - Method: `POST`
   - Description: Create a new product.
     - Request Body:
@@ -115,26 +115,26 @@ The "Travel Api" provides the following APIs:
 
 - **Get All Products**
 
-  - Endpoint: `/api/products/`
+  - Endpoint: `/products/`
   - Method: `GET`
   - Description: Retrieve a list of all products.
 
 - **Get Product by ID**
 
-  - Endpoint: `/api/products/:productId`
+  - Endpoint: `/products/:productId`
   - Method: `GET`
   - Description: Retrieve product information based on its ProductId.
 
 - **Update Product by ID**
 
-  - Endpoint: `/api/products/:productId`
+  - Endpoint: `/products/:productId`
   - Method: `PUT`
   - Description: Update product information based on its ProductId.
   - Request Body:
     - **Name**: Product's name.
 
 - **Delete Product by ID**
-  - Endpoint: `/api/products/:productId`
+  - Endpoint: `/products/:productId`
   - Method: `DELETE`
   - Description: Delete a product based on its ProductId.
 
@@ -142,7 +142,7 @@ The "Travel Api" provides the following APIs:
 
 - **Create a New Order**
 
-  - Endpoint: `/api/orders/`
+  - Endpoint: `/orders/`
   - Method: `POST`
   - Description: Create a new order.
   - Request Body:
@@ -151,25 +151,31 @@ The "Travel Api" provides the following APIs:
 
 - **Get All Orders**
 
-  - Endpoint: `/api/orders/`
+  - Endpoint: `/orders/`
   - Method: `GET`
   - Description: Retrieve a list of all orders.
 
 - **Get All Orders by Date**
 
-  - Endpoint: `/api/orders/all/:date`
+  - Endpoint: `/orders/all/:date`
+  - Method: `GET`
+  - Description: Retrieve orders filtered by a specific date.
+
+  - **Get All Orders by Product**
+
+  - Endpoint: `/search/:productName`
   - Method: `GET`
   - Description: Retrieve orders filtered by a specific date.
 
 - **Get Orders by ID**
 
-  - Endpoint: `/api/orders/:orderId`
+  - Endpoint: `/orders/:orderId`
   - Method: `GET`
   - Description: Retrieve orders for a specific OrderId.
 
 - **Update Order by ID**
 
-  - Endpoint: `/api/orders/:orderId`
+  - Endpoint: `/orders/:orderId`
   - Method: `PUT`
   - Description: Update an order based on its ID.
   - Request Body:
@@ -177,7 +183,7 @@ The "Travel Api" provides the following APIs:
     - **productID**: product id.
 
 - **Delete Order by ID**
-  - Endpoint: `/api/orders/:orderId`
+  - Endpoint: `/orders/:orderId`
   - Method: `DELETE`
   - Description: Delete an order based on its ID.
 
